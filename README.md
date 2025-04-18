@@ -37,7 +37,7 @@ Or running:
 ```bash
 ros2 topic echo /camera/depth/color/points
 ```
-### 3.** Connect to Pixhawk**
+### 3.**Connect to Pixhawk**
 Connect your laptop to the Pixhawk via USB and launch MAVProxy:
 
 ```bash
@@ -49,7 +49,7 @@ mode guided
  ```
 🔐 Safety Tip: Always connect the Pixhawk to your RC receiver and keep your RC controller ready. In case the rover behaves unexpectedly, immediately switch the mode to Hold or take manual control via the RC.
 
-###4. **Run the APFA Navigation Code**
+### 4. **Run the APFA Navigation Code**
 With the camera and Pixhawk set up, you can now launch the APFA-based navigation script:
 ```bash
 python3 maze_runner.py
