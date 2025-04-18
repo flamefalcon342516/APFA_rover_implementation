@@ -57,4 +57,5 @@ python3 maze_runner.py
 ```
 You may also use an alternative script ([new_apfa_dbscan.py]), but maze_runner.py is recommended for more stable performance.
 
+![WhatsApp Image 2025-04-18 at 10 29 54 AM](https://github.com/user-attachments/assets/ff128e7c-db9c-4ddf-8883-dcc09375bb46)
 
