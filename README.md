@@ -1,8 +1,9 @@
 # APFA_Rover_Implementation
 
-This repository contains the implementation of the **Artificial Potential Field Algorithm (APFA)** for autonomous navigation of a Pixhawk-based rover using real-world point cloud data from a **depth camera**. The rover computes attractive and repulsive forces to navigate towards a goal while avoiding obstacles in its environment.
+This repository contains the implementation of the **Artificial Potential Field Algorithm (APFA)** for autonomous navigation of a Pixhawk-based rover using real-world point cloud data from a **depth camera**. The rover computes attractive and repulsive forces to navigate towards a goal while avoiding obstacles in its environment
 
 ---
+.![WhatsApp Image 2025-04-18 at 10 31 17 AM](https://github.com/user-attachments/assets/9b8765f8-145c-4376-8b01-4ebb9c3b3a19)
 
 ## 🚀 System Overview
 
