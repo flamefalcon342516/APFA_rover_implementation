@@ -27,4 +27,33 @@ or alternatively use:
 ```bash
 ros2 launch realsense2_camera rs_launch.py
 ```
-### 2. 
+### 2. **Verify Camera Output**
+You can check if point cloud data is being published by:
+
+Opening RViz2 and visualizing the /camera/depth/color/points topic.
+
+Or running:
+
+```bash
+ros2 topic echo /camera/depth/color/points
+```
+### 3.** Connect to Pixhawk**
+Connect your laptop to the Pixhawk via USB and launch MAVProxy:
+
+```bash
+mavproxy.py --map --console
+```
+Once MAVProxy starts, verify connection to the Pixhawk and set the mode:
+```bah
+mode guided
+ ```
+🔐 Safety Tip: Always connect the Pixhawk to your RC receiver and keep your RC controller ready. In case the rover behaves unexpectedly, immediately switch the mode to Hold or take manual control via the RC.
+
+###4. **Run the APFA Navigation Code**
+With the camera and Pixhawk set up, you can now launch the APFA-based navigation script:
+```bash
+python3 maze_runner.py
+```
+You may also use an alternative script ([new_apfa_dbscan.py]), but maze_runner.py is recommended for more stable performance.
+
+
