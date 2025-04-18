@@ -21,3 +21,10 @@ First, connect the Intel RealSense D455 camera to your laptop and launch the nod
 
 ```bash
 ros2 launch realsense2_camera rs_launch.py depth_module.depth_profile:=1280x720x30 pointcloud.enable:=true
+```
+or alternatively use:
+
+```bash
+ros2 launch realsense2_camera rs_launch.py
+```
+### 2. 
